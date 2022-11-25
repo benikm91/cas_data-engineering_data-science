@@ -1,13 +1,10 @@
 # CAS Data Science - Machine Learning slides
 
-| WARNING: Slides are still work in progress, as they will be used the first time in HS22. |
-|------------------------------------------------------------------------------------------|
-
 This repository contains my slides for the "Machine Learning" subject at CAS Data Science.
 
 ## Slides
 
-The current slides are hosted on github pages: <a href="https://benikm91.github.io/cas_machine-learning-slides" target="_blank">https://benikm91.github.io/cas_machine-learning-slides</a>
+The current slides are hosted on github pages: <a href="https://benikm91.github.io/ cas_data-engineering_data-science" target="_blank">https://benikm91.github.io/ cas_data-engineering_data-science</a>
 
 ## Technology
 
