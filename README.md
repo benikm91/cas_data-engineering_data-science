@@ -4,7 +4,7 @@ This repository contains my slides for the "Machine Learning" subject at CAS Dat
 
 ## Slides
 
-The current slides are hosted on github pages: <a href="https://benikm91.github.io/ cas_data-engineering_data-science" target="_blank">https://benikm91.github.io/ cas_data-engineering_data-science</a>
+The current slides are hosted on github pages: <a href="https://benikm91.github.io/cas_data-engineering_data-science" target="_blank">https://benikm91.github.io/ cas_data-engineering_data-science</a>
 
 ## Technology
 
