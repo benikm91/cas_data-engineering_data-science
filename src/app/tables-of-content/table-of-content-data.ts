@@ -34,8 +34,8 @@ export class ProblemTableOfContentLabel extends TableOfContentLabel {
     public static readonly CLASSIFICATION = new ProblemTableOfContentLabel("Classification", "Classification");
     public static readonly UNSUPERVISED_LEARNING = new ProblemTableOfContentLabel("Unsupervised Learning", "Unsupervised Learning");
     public static readonly CLUSTERING = new ProblemTableOfContentLabel("Clustering", "Clustering");
-    public static readonly DIMENSIONALITY_REDUCTION = new ProblemTableOfContentLabel("Dimensionality Reduction", "Unsupervised Learning/Dimensionality Reduction");
-    public static readonly REINFORCEMENT_LEARNING = new ProblemTableOfContentLabel("Reinforcement Learning", "Reinforcement Learning");
+    public static readonly DIMENSIONALITY_REDUCTION = new ProblemTableOfContentLabel("(Dimensionality Reduction)", "Unsupervised Learning/Dimensionality Reduction");
+    public static readonly REINFORCEMENT_LEARNING = new ProblemTableOfContentLabel("(Reinforcement Learning)", "Reinforcement Learning");
 }
 
 export function createProblemTableOfContent(active: ProblemTableOfContentLabel | null): TableOfContentEntry<ProblemTableOfContentLabel> {
@@ -64,30 +64,30 @@ export class AlgorithmTableOfContentLabel extends TableOfContentLabel {
 export class ConceptTableOfContentLabel extends TableOfContentLabel {
     public static readonly CONCEPTS = new ProblemTableOfContentLabel("Machine Learning Konzepte", "Machine Learning Konzepte");
     public static readonly FEATURE_PREPROCESSING = new ProblemTableOfContentLabel("Feature Preprocessing", "Feature Preprocessing");
-    public static readonly STANDARDIZE = new ProblemTableOfContentLabel("Standardize", "Standardize");
+    public static readonly STANDARDIZE = new ProblemTableOfContentLabel("(Standardize)", "Standardize");
     public static readonly ENCODING = new ProblemTableOfContentLabel("Encoding", "Encoding");
     public static readonly FEATURE_SELECTION = new ProblemTableOfContentLabel("Feature Selection", "Feature Selection");
-    public static readonly DIMENSIONALITY_REDUCTION = new ProblemTableOfContentLabel("Dimensionality Reduction", "Feature Preprocessing/Dimensionality Reduction");
+    public static readonly DIMENSIONALITY_REDUCTION = new ProblemTableOfContentLabel("(Dimensionality Reduction)", "Feature Preprocessing/Dimensionality Reduction");
     public static readonly FEATURE_ENGINEERING = new ProblemTableOfContentLabel("Feature Engineering", "Feature Engineering");
     public static readonly FEATURE_ENGINEERING_EXPLICIT = new ProblemTableOfContentLabel("Feature Engineering (Explizit)", "Feature Engineering (Explizit)");
-    public static readonly KERNEL_TRICK = new ProblemTableOfContentLabel("Kernel Trick", "Kernel Trick");
+    public static readonly KERNEL_TRICK = new ProblemTableOfContentLabel("(Kernel Trick)", "Kernel Trick");
     public static readonly MODEL_COMPLEXITY = new ProblemTableOfContentLabel("Model-Komplexität", "Model-Komplexität");
     public static readonly OVERFITTING_UNDERFITTING = new ProblemTableOfContentLabel("Over- vs. Underfitting", "Over- vs. Underfitting");
     public static readonly CROSS_VALIDATION = new ProblemTableOfContentLabel("Cross Validation", "Cross Validation");
-    public static readonly REGULARIZATION = new ProblemTableOfContentLabel("Regularization", "Regularization");
+    public static readonly REGULARIZATION = new ProblemTableOfContentLabel("(Regularization)", "Regularization");
     public static readonly OPTIMIZATION = new ProblemTableOfContentLabel("Optimization", "Optimization");
     public static readonly METRICS = new ProblemTableOfContentLabel("Metrik", "Metrik");
     public static readonly REGRESSION_METRICS = new ProblemTableOfContentLabel("Regression Metrik", "Regression Metrik");
     public static readonly CLASSIFICATION_METRICS = new ProblemTableOfContentLabel("Klassifikation Metrik", "Klassifikation Metrik");
     public static readonly COST_FUNCTION = new ProblemTableOfContentLabel("Kostenfunktion", "Kostenfunktion");
     public static readonly OPTIMIZATION_ALGORITHMS = new ProblemTableOfContentLabel("Optimization Algorithms", "Optimization Algorithms");
-    public static readonly ANALYTICAL = new ProblemTableOfContentLabel("Analytisch", "Analytisch");
-    public static readonly SOLVERS = new ProblemTableOfContentLabel("Solvers", "Solvers");
-    public static readonly GRADIENT_DESCENT = new ProblemTableOfContentLabel("Gradient Descent", "Gradient Descent");
-    public static readonly COORDINATE_DESCENT = new ProblemTableOfContentLabel("Coordinate Descent", "Coordinate Descent");
-    public static readonly MODEL_SELECTION = new ProblemTableOfContentLabel("Model Selection", "Model Selection");
-    public static readonly ALGORITHM_SELECTION = new ProblemTableOfContentLabel("Algorithm Selection", "Algorithm Selection");
-    public static readonly HYPERPARAMETER_SELECTION = new ProblemTableOfContentLabel("Hyper-Parameter Selection", "Hyper-Parameter Selection");
+    public static readonly ANALYTICAL = new ProblemTableOfContentLabel("(Analytisch)", "Analytisch");
+    public static readonly SOLVERS = new ProblemTableOfContentLabel("(Solvers)", "Solvers");
+    public static readonly GRADIENT_DESCENT = new ProblemTableOfContentLabel("(Gradient Descent)", "Gradient Descent");
+    public static readonly COORDINATE_DESCENT = new ProblemTableOfContentLabel("(Coordinate Descent)", "Coordinate Descent");
+    public static readonly MODEL_SELECTION = new ProblemTableOfContentLabel("(Model Selection)", "Model Selection");
+    public static readonly ALGORITHM_SELECTION = new ProblemTableOfContentLabel("(Algorithm Selection)", "Algorithm Selection");
+    public static readonly HYPERPARAMETER_SELECTION = new ProblemTableOfContentLabel("(Hyper-Parameter Selection)", "Hyper-Parameter Selection");
 
 }
 
